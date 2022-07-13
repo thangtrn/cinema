@@ -15,8 +15,6 @@ function Search() {
 
     const {search} = useLocation()
     const searchQuery = search.split('=')[1].replace('%20',' ')
-    console.log(searchQuery)
-    console.log(page)
 
     const handleLoadMore = () => {
         if(page >= totalPage) return

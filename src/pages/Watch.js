@@ -13,6 +13,7 @@ function Watch() {
                 <div className="flex-grow">
                     <div className="relative h-0 w-full bg-dark-darken pb-[56.25%]">
                         <iframe
+                            allowFullScreen
                             className="absolute top-0 left-0 w-full h-full"
                             src={`https://2embed.org/embed/${params.id}`}
                             title={movieData.title}
